@@ -72,6 +72,17 @@ header {
     margin-left: 20px;
 }
 
+nav {
+    font-weight: 400;
+}
+
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 #get-start {
     display: flex;
     flex-direction: column;
