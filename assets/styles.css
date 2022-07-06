@@ -56,3 +56,55 @@ header {
     align-items: center;
     background-color: #eee;
 }
+
+.logo {
+    width: 60vw;
+}
+
+.logo > img {
+    width: 100%;
+    height:100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#get-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#get-start > h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+#get-start input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+
+#get-start input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+}
+
+#get-start input[type='submit']:hover {
+    background-color: orange;
+    transition: background-color 1s;
+}
+
+
