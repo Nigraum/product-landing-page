@@ -164,6 +164,7 @@ header {
     width: 100%;
     text-transform: uppercase;
     font-weight: 700;
+    text-align: center;
 }
 
 .product > h2 {
@@ -176,6 +177,7 @@ header {
 
 .product > ol > li {
     padding: 5px 0;
+    text-align: center;
 }
 
 .product > button {
