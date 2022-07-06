@@ -107,4 +107,24 @@ header {
     transition: background-color 1s;
 }
 
+#content {
+    margin-top: 30px;
+}
 
+#content .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+
+#content .services {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
