@@ -128,3 +128,23 @@ header {
     width: 80vw;
     padding: 5px;
 }
+
+#video_content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#video_content > iframe {
+    max-width: 500px;
+    width: 100%;
+}
+
+#price {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
